@@ -31,3 +31,18 @@ flowchart LR
     C --> D[internal/domain Entities & Interfaces]
     E[internal/repository/postgres pgx Pool] -.->|Implements| D
     E --> F[(PostgreSQL 16)]
+```
+
+```text
+### Repository Structure
+go-enterprise-api/
+├── cmd/
+│   └── api/                 # Application entrypoints
+├── internal/
+│   ├── delivery/            # HTTP handlers, REST routes, middleware
+│   ├── domain/              # Business models and interfaces
+│   ├── repository/          # Database queries & data access (PostgreSQL)
+│   └── usecase/             # Business logic / application services
+├── pkg/                     # Public helper libraries & utilities
+├── config/                  # Environment and application configuration
+└── go.mod                   # Go modules dependencies
