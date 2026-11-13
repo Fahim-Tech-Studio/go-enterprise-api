@@ -18,11 +18,20 @@ go-enterprise-api/
 ├── pkg/               # Public helper libraries & utilities
 ├── config/            # Environment and application configuration
 └── go.mod             # Go modules dependencies
-##  Tech Stack
-- **Language:** Go (Golang)
-- **Database:** PostgreSQL
 
+Key Features
+Modular Routing: Clean separation of handler routes and middleware.
 
+Database Layer: Optimized relational mappings and connection pooling with PostgreSQL.
 
-##  License
-Released under the MIT License. Developed by **Fahim Tech Studio**.
+Security: JWT-based authentication, role-based access control (RBAC), and request rate limiting.
+
+Observability: Structured logging, request tracing, and health check endpoints.
+
+Tech Stack
+Language: Go (Golang)
+
+Database: PostgreSQL
+
+License
+Released under the MIT License. Developed by Fahim Tech Studio.
