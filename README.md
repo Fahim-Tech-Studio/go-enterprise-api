@@ -2,12 +2,12 @@
 
 High-performance modular backend architecture and REST API boilerplate built in **Golang**, designed for enterprise resource planning (ERP) systems and scalable microservices.
 
----
+
 
 ## 🏗️ Architecture Design
 This repository follows clean architecture principles, separating core business logic from transport and database layers:
 
-```text
+text
 go-enterprise-api/
 ├── cmd/               # Application entrypoints
 ├── internal/          # Private application code
